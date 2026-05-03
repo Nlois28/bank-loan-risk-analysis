@@ -12,3 +12,11 @@ To prepare the data, I performed feature engineering in BigQuery to create a bin
 **Insight:** **60-month loans** exhibit a significantly higher default probability compared to 36-month terms, justifying the interest rate spread between the two products. 
 ### 4. Geographic Risk Distribution * **Insight:** Identified high-risk clusters in specific US states, allowing for localized credit policy adjustments. 
 💡 Recommendations * **Tighten Credit Criteria:** Implement stricter DTI (Debt-to-Income) requirements for Grade F and G applicants. * **Term Optimization:** Re-evaluate the risk-adjusted return on 60-month loans to ensure the higher NPL is fully offset by the interest income.
+●	Risk by Grade: "As expected, lower grades (E, F, G) show a much higher NPL ratio, reaching up to X%."
+●	Interest Rate vs NPL: "There is a clear positive correlation. The bank charges more for higher risk, which is a correct pricing strategy."
+●	Geographic Insights: "States like California and Texas show the highest volume, while [βάλε μια πολιτεία με υψηλό ρίσκο] shows the highest default rate."
+
+
+Conclusion & Recommendations 
+●	Review the 60-month loan product due to higher default rates and
+Implement stricter criteria for Grade G loans
